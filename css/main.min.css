@@ -1858,6 +1858,74 @@ body.fixed {
 }
 
  */
+@media (max-width: 767px) {
+  .partners .partners_container {
+    padding: 0;
+  }
+}
+
+.partners__wrapper {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: scroll;
+}
+@media (min-width: 768px) {
+  .partners__wrapper {
+    margin-top: 0;
+    flex-wrap: wrap;
+    overflow: unset;
+  }
+}
+
+.partners__item {
+  min-width: 130px;
+}
+.partners__item:first-child {
+  margin-left: 20px;
+}
+.partners__item:last-child {
+  margin-right: 20px;
+}
+@media (min-width: 768px) {
+  .partners__item {
+    min-width: unset;
+    flex-basis: calc(25% - 15px);
+    margin: 0 !important;
+  }
+}
+@media (min-width: 992px) {
+  .partners__item {
+    flex-basis: calc(20% - 16px);
+  }
+}
+
+.partners__image img {
+  border-radius: 20px;
+}
+
+.partners__title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+@media (min-width: 768px) {
+  .partners__title {
+    font-size: 22px;
+  }
+}
+
+.partners__info {
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .partners__info {
+    font-size: 14px;
+  }
+}
+
 .geo {
   overflow: hidden;
   background-color: #f9f9f9;
