@@ -1,0 +1,151 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?pmmal4');
+  src:  url('fonts/icomoon.eot?pmmal4#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?pmmal4') format('truetype'),
+    url('fonts/icomoon.woff?pmmal4') format('woff'),
+    url('fonts/icomoon.svg?pmmal4#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-check-symbol:before {
+  content: "\e926";
+}
+.icon-download:before {
+  content: "\e927";
+}
+.icon-eye-big:before {
+  content: "\e928";
+}
+.icon-photo:before {
+  content: "\e925";
+}
+.icon-checklist:before {
+  content: "\e920";
+}
+.icon-dots-empty:before {
+  content: "\e921";
+}
+.icon-find:before {
+  content: "\e922";
+}
+.icon-plates:before {
+  content: "\e923";
+}
+.icon-telegram:before {
+  content: "\e924";
+  color: #fff;
+}
+.icon-star:before {
+  content: "\e900";
+}
+.icon-call:before {
+  content: "\e901";
+}
+.icon-message:before {
+  content: "\e902";
+}
+.icon-arrow:before {
+  content: "\e903";
+}
+.icon-arrow-back:before {
+  content: "\e904";
+}
+.icon-back:before {
+  content: "\e905";
+}
+.icon-bell:before {
+  content: "\e906";
+}
+.icon-bin:before {
+  content: "\e907";
+}
+.icon-calendar:before {
+  content: "\e908";
+}
+.icon-checked:before {
+  content: "\e909";
+}
+.icon-clip:before {
+  content: "\e90a";
+}
+.icon-cross:before {
+  content: "\e90b";
+}
+.icon-dots:before {
+  content: "\e90c";
+}
+.icon-eye:before {
+  content: "\e90d";
+}
+.icon-heart:before {
+  content: "\e90e";
+}
+.icon-heart-fill:before {
+  content: "\e90f";
+}
+.icon-magnifier:before {
+  content: "\e910";
+}
+.icon-marker:before {
+  content: "\e911";
+}
+.icon-pencil:before {
+  content: "\e912";
+}
+.icon-pin:before {
+  content: "\e913";
+}
+.icon-plus:before {
+  content: "\e914";
+}
+.icon-plus2:before {
+  content: "\e915";
+}
+.icon-plus-rounded:before {
+  content: "\e916";
+}
+.icon-received:before {
+  content: "\e917";
+}
+.icon-send:before {
+  content: "\e918";
+}
+.icon-settings:before {
+  content: "\e919";
+}
+.icon-smile:before {
+  content: "\e91a";
+}
+.icon-user:before {
+  content: "\e91b";
+}
+.icon-wallet:before {
+  content: "\e91c";
+}
+.icon-worker:before {
+  content: "\e91d";
+}
+.icon-worker-bold:before {
+  content: "\e91e";
+}
+.icon-worker-find:before {
+  content: "\e91f";
+}
