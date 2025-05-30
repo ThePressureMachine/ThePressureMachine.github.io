@@ -167,7 +167,7 @@
 
 				<div class="input-group">
 					<label class="custom-select-container">
-						<select class="custom-select-element fp-disable-focus service-selection">
+						<select class="fp-disable-focus custom-select-element service-selection">
 							<option value="courier" disabled="disabled" selected="selected" hidden>Например, курьер на одну доставку</option>
 							<option value="name-1">Название 1</option>
 							<option value="name-2">Название 2</option>
@@ -390,7 +390,7 @@
 
                   <div class="sidebar-filter__buttons">
                     <button type="submit" class="btn sidebar-filter__submit-btn">Применить</button>
-                    <button type="button" class="btn close-button d-xl-none">Закрыть</button>
+                    <button type="button" class="btn btn--light close-button d-xl-none">Закрыть</button>
                   </div>
 
                 </form>
@@ -416,37 +416,51 @@
             </div>
             <div class="product-content__cards">
 
-              <div class="cards-filter mobile-horizontal-scroll product-content__cards-filter">
-
+              <div class="cards-filter mobile-horizontal-scroll mobile-horizontal-scroll--dropdown-fix product-content__cards-filter">
                 <div class="d-xl-none cards-filter__mobile-element">
                   <div class="open-element">
 										<i class="icon-settings"></i>
 										<span class="visually-hidden">Фильтр</span>
 									</div>
                 </div>
-
                 <div class="cards-filter__sorting-elements sorting-elements">
-                  <div class="cards-filter__sorting sorting">
-                    <div class="sorting__name">По цене: </div>
-                    <div class="sorting__item">
-                      <span class="sorting__icon sorting__value current sorting__icon--min">дешевле</span>
-                      <span class="sorting__icon sorting__value sorting__icon--max">дороже</span>
-                    </div>
-                  </div>
-                  <div class="cards-filter__sorting sorting">
-                    <div class="sorting__name">По рейтингу: </div>
-                    <div class="sorting__item">
-                      <span class="sorting__icon sorting__value current sorting__icon--min">высокий</span>
-                      <span class="sorting__icon sorting__value sorting__icon--max">низкий</span>
-                    </div>
-                  </div>
+									<div class="cards-filter__sorting sorting">
+										<div class="filter-element">
+											<label class="filter-select-container">
+												<span class="sorting__name">По рейтингу:</span>
+												<select class="fp-disable-focus filter-select-element">
+													<option value="name-1" selected="selected">Высокий</option>
+													<option value="name-2">Низкий</option>
+													<option value="name-2">Популярный</option>
+												</select>
+												<i class="icon-arrow-back filter-element-icon"></i>
+											</label>
+										</div>
+										<div class="filter-element">
+											<label class="filter-select-container">
+												<span class="sorting__name">Сортировка:</span>
+
+												<select class="fp-disable-focus filter-select-element">
+													<option value="name-1" selected="selected">Дешевле</option>
+													<option value="name-2">Дороже</option>
+													<option value="name-2">Очень дорого</option>
+													<option value="name-2">Очень дешево</option>
+													<option value="name-2">Очень дорого</option>
+													<option value="name-2">Очень дешево</option>
+												</select>
+
+												<i class="icon-arrow-back filter-element-icon"></i>
+
+											</label>
+										</div>
+									</div>
                 </div>
                 <div class="cards-filter__viewing-elements ms-auto viewing-elements">
                   <div class="cards-filter__viewing viewing">
                     <div class="viewing__name">Отображать: </div>
                     <div class="viewing__item">
                       <a href="service-announcements--table.html" class="viewing__value" data-viewing="table-view">таблица</a>
-                      <a href="service-announcements--card.html" class="current viewing__value" data-viewing="card-view">карточка</a>
+                      <a href="service-announcements--card.html" class="viewing__value current" data-viewing="card-view">карточка</a>
 											<a href="service-announcements--map.html" class="viewing__value">на карте</a>
                     </div>
                   </div>
