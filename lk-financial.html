@@ -179,12 +179,12 @@
 									<a href="#" class="btn btn--outlined">Войти как заказчик</a>
 								</div>
 								<ul>
-									<li><a href="#">Счет</a></li>
-									<li><a href="#">Профиль</a></li>
-									<li><a href="#">Настройки</a></li>
-									<li><a href="#">Служба поддержки</a></li>
+									<li><a href="lk-financial.html#lk-balance">Счет</a></li>
+									<li><a href="lk-profile.html">Профиль</a></li>
+									<li><a href="lk-settings.html">Настройки</a></li>
+									<li><a href="lk-support.html">Служба поддержки</a></li>
 									<li><a href="#">CRM системы</a></li>
-									<li><a href="#">Финансы и документы</a></li>
+									<li><a href="lk-financial.html#lk-documents">Финансы и документы</a></li>
 								</ul>
 								<div class="user-nav-elements__log-out">
 									<a class="" href="#">Выйти</a>
@@ -282,7 +282,6 @@
 				<div class="wow col-xl-9 fadeInUp product-content__col-content" data-wow-duration="0.3s" data-wow-delay="0.5s">
 					<h1 class="section-title">Служба поддержки</h1>
 
-
 					<div class="lk-profile__section-with-subtitle lk-profile__support-section">
 						<p class="editor-form__title">Финансы и документы</p>
 						<p class="editor-form__sub-title">Какой то описательный текст </p>
@@ -290,14 +289,14 @@
 
 						<div data-tabs="tabs-block">
 
-							<ul class="mobile-horizontal-scroll" data-tabs="tabs-list">
-								<li class="">Список документов</li>
-								<li class="">Тарифный план</li>
-								<li class="active">Баланс</li>
+							<ul class="mobile-horizontal-scroll" data-tabs="tabs-list" role="tablist">
+								<li role="tab" class="" id="lk-documents">Список документов</li>
+								<li role="tab" class="active" id="lk-taraffs">Тарифный план</li>
+								<li role="tab" class="" id="lk-balance">Баланс</li>
 							</ul>
 
-							<div class="lk-profile__tabs" data-tabs="tabs-panels">
-								<div class="">
+							<div class="lk-profile__tabs" data-tabs="tabs-panels" role="tabpanel">
+								<div class="" aria-labelledby="lk-documents">
 									<ul class="list-unstyled lk-profile__documents-list">
 
 										<li>
@@ -463,8 +462,7 @@
 
 									</ul>
 								</div>
-
-								<div class="">
+								<div class="active" aria-labelledby="lk-taraffs">
 									<div data-tabs="tabs-block">
 										<div class="mobile-horizontal-scroll tabs-pills" data-tabs="tabs-list">
 											<div class="tabs-pills__wrap tabs__wrap" data-tabs="tabs-wrap">
@@ -783,8 +781,7 @@
 										</div>
 									</div>
 								</div>
-
-								<div class="active">
+								<div class="" aria-labelledby="lk-balance">
 									<div class="lk-profile__balance-blocks">
 										<div class="lk-profile__balance-cards">
 											<div class="card card--outlined balance-card lk-profile__balance-card lk-profile__balance-card--balance">
@@ -1004,13 +1001,22 @@
 
 						</div>
 
-
 					</div>
 				</div>
-
 			</div>
 		</div>
 	</section>
+
+
+
+
+
+
+
+
+
+
+
 
 </main>
 
@@ -1056,12 +1062,12 @@
 
 					</div>
 					<ul>
-						<li><a href="#">Счет</a></li>
+						<li><a href="lk-financial.html#lk-balance">Счет</a></li>
 						<li><a href="lk-profile.html">Профиль</a></li>
 						<li><a href="lk-settings.html">Настройки</a></li>
 						<li><a href="lk-support.html">Служба поддержки</a></li>
 						<li><a href="#">CRM системы</a></li>
-						<li><a href="lk-financial.html">Финансы и документы</a></li>
+						<li><a href="lk-financial.html#lk-documents">Финансы и документы</a></li>
 					</ul>
 					<div class="user-nav-elements__log-out">
 						<a class="" href="#">Выйти</a>
