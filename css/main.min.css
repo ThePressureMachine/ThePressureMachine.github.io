@@ -9720,6 +9720,12 @@ body.full-view main {
 }
 
 @media (max-width: 991px) {
+  body.page-messenger .footer {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
   .messenger-section {
     padding-top: 10px;
   }
@@ -9877,11 +9883,11 @@ body.full-view main {
   transition: all 0.2s ease;
 }
 .messenger-contact.active {
-  background-color: #e5edff;
+  background-color: #e5edff !important;
 }
 @media (min-width: 992px) {
   .messenger-contact.active {
-    background-color: #f6f6f6;
+    background-color: #f6f6f6 !important;
   }
 }
 .messenger-contact:hover {
@@ -10178,6 +10184,11 @@ body.full-view main {
 @media (max-width: 991px) {
   .chat-window__chat {
     background-color: #f8f8f8;
+  }
+}
+@media (min-width: 576px) {
+  .chat-window__chat {
+    padding: 0 20px;
   }
 }
 @media (min-width: 992px) {
