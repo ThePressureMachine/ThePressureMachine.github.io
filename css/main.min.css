@@ -9781,6 +9781,11 @@ body.full-view main {
 
 @media (min-width: 992px) {
   .messenger-section .messenger {
+    margin: 56px 0 56px;
+  }
+}
+@media (min-width: 1400px) {
+  .messenger-section .messenger {
     margin: 56px 0 132px;
   }
 }
@@ -9881,6 +9886,7 @@ body.full-view main {
   user-select: none;
   border-radius: 10px;
   transition: all 0.2s ease;
+  justify-content: space-around;
 }
 .messenger-contact.active {
   background-color: #e5edff !important;
@@ -10374,11 +10380,21 @@ body.full-view main {
   flex-wrap: nowrap;
   align-items: center;
   gap: 10px;
-  width: 70%;
+  width: 100%;
 }
-@media (max-width: 991px) {
+@media (min-width: 576px) {
   .chat-window__message {
-    width: 100%;
+    width: 80%;
+  }
+}
+@media (min-width: 992px) {
+  .chat-window__message {
+    width: 90%;
+  }
+}
+@media (min-width: 1200px) {
+  .chat-window__message {
+    width: 80%;
   }
 }
 .chat-window__message:hover .chat-window__message-controls {
